@@ -12,7 +12,7 @@ In the main project folder, please run the following:
  
 > mvn clean package 
 
-> java -jar target/web-crawler-0.0.1-SNAPSHOT.jar http://wiprodigital.com
+> java -jar target/web-crawler-0.0.1-SNAPSHOT.jar <initial url>
 
 ##Assumptions
 * The sitemap will fit into the JVM heap space, hence no other storage is used 
